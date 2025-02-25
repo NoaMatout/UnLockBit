@@ -76,7 +76,7 @@ Ce script crée une interface utilisateur avec Tkinter pour :
 
 ### 🔹 `encryption.py`
 Ce fichier contient l’implémentation du chiffrement avec **AES-GCM** :
-- **`derive_key_from_password()`** → Génère une clé sécurisée avec PBKDF2
+- **`derive_key_from_password()`** → Génère une clé sécurisée avec Argon2 (gagnante de la Password Hashing Competition en juillet 2015)
 - **`encrypt_file()`** → Chiffre un fichier avec AES-256-GCM
 - **`decrypt_file()`** → Déchiffre un fichier avec vérification d’intégrité
 
